@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(800, 600);
 }
-
+x = 150 
 function draw() {
     background(220);
     fill("rgba(0, 122, 33, 1)");
@@ -12,6 +12,12 @@ function draw() {
     ellipse(125,320,20,20)
     ellipse(135,420,20,20)
     ellipse(185,370,20,20)
+	
+		ellipse(0,0,100,100)
+		
+		fill("rgba(0, 0, 255, 1)");
+		ellipse(x+50,0,x,100)
+		x++
     //line(120, 450, 120, 600);
     //line(180, 450, 180, 600);
 
